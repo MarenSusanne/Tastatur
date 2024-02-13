@@ -1,0 +1,72 @@
+.tastatur {
+    display: block;
+}
+#input{
+    border: solid rgb(75, 75, 75) 1px;
+    height: 50px;
+}
+#filler1{
+    height: 50px;
+    margin-bottom: 4px;
+}
+#filler2{
+    height: 50px;
+    margin-left: 15px;
+    margin-bottom: 4px;
+}
+#filler3{
+    height: 50px;
+    margin-left: 50px;
+    margin-bottom: 4px;
+}
+.move{
+    width: 50px;
+    height: 50px;
+    border: solid rgb(75, 75, 75) 1px;
+    background: linear-gradient(0deg, rgb(91, 201, 245) 0%, rgb(149, 220, 248) 55%, rgb(207, 233, 240) 100%);
+    font-size: larger;
+}
+.letters{
+    width: 50px;
+    height: 50px;
+    border: solid rgb(75, 75, 75) 1px;
+    background: linear-gradient(0deg, rgba(240, 91, 245) 0%, rgb(248, 149, 227) 55%, rgb(240, 207, 240) 100%);
+    font-size: larger;
+}
+#filler4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#spacebar{
+    height: 50px;
+    width: 190px;
+    border: solid rgb(75, 75, 75) 1px;
+    background: linear-gradient(0deg, rgba(240, 91, 245) 0%, rgb(248, 149, 227) 55%, rgb(240, 207, 240) 100%);
+    font-size: larger;
+}
+#backspace{
+    height: 50px;
+    width: 100px;
+    border: solid rgb(75, 75, 75) 1px;
+    background: linear-gradient(0deg, rgba(240, 91, 245) 0%, rgb(248, 149, 227) 55%, rgb(240, 207, 240) 100%);
+    font-size: larger;
+}
+#input{
+    width: 610px;
+    font-size: xx-large;
+    margin-bottom: 6px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.emoji{
+    height: 50px;
+    width: 50px;
+    font-size: x-large;
+    border-radius: 20px;
+    border: solid rgb(75, 75, 75) 1px;
+    background: linear-gradient(0deg, rgb(222, 245, 91) 0%, rgb(230, 248, 149) 55%, rgb(235, 240, 207) 100%);
+}

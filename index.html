@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tastatur</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tastatur">
+        <input id="input">
+        <div id="filler1">
+            <button class="letters" onclick="pushedLetter(this)">Q</button>
+            <button class="move" onclick="pushedLetter(this)">W</button>
+            <button class="letters" onclick="pushedLetter(this)">E</button>
+            <button class="letters" onclick="pushedLetter(this)">R</button>
+            <button class="letters" onclick="pushedLetter(this)">T</button>
+            <button class="letters" onclick="pushedLetter(this)">Y</button>
+            <button class="letters" onclick="pushedLetter(this)">U</button>
+            <button class="letters" onclick="pushedLetter(this)">I</button>
+            <button class="letters" onclick="pushedLetter(this)">O</button>
+            <button class="letters" onclick="pushedLetter(this)">P</button>
+            <button class="letters" onclick="pushedLetter(this)">Å</button>
+        </div>
+        <div id="filler2">
+            <button class="move" onclick="pushedLetter(this)">A</button>
+            <button class="move" onclick="pushedLetter(this)">S</button>
+            <button class="move" onclick="pushedLetter(this)">D</button>
+            <button class="letters" onclick="pushedLetter(this)">F</button>
+            <button class="letters" onclick="pushedLetter(this)">G</button>
+            <button class="letters" onclick="pushedLetter(this)">H</button>
+            <button class="letters" onclick="pushedLetter(this)">J</button>
+            <button class="letters" onclick="pushedLetter(this)">K</button>
+            <button class="letters" onclick="pushedLetter(this)">L</button>
+            <button class="letters" onclick="pushedLetter(this)">Ø</button>
+            <button class="letters" onclick="pushedLetter(this)">Æ</button>
+        </div>
+        <div id="filler3">
+            <button class="letters" onclick="pushedLetter(this)">Z</button>
+            <button class="letters" onclick="pushedLetter(this)">X</button>
+            <button class="letters" onclick="pushedLetter(this)">C</button>
+            <button class="letters" onclick="pushedLetter(this)">V</button>
+            <button class="letters" onclick="pushedLetter(this)">B</button>
+            <button class="letters" onclick="pushedLetter(this)">N</button>
+            <button class="letters" onclick="pushedLetter(this)">M</button>
+            <button class="letters" onclick="pushedLetter(this)">,</button>
+            <button class="letters" onclick="pushedLetter(this)">.</button>
+        </div>
+        <div id="filler4">
+            <button class="emoji" onclick="pushedLetter(this)">🙂</button>
+            <button class="emoji" onclick="pushedLetter(this)">😄</button>
+            <button class="emoji" onclick="pushedLetter(this)">😭</button>
+            <button id="spacebar" onclick="pushedSpace()">Space</button>
+            <button class="emoji" onclick="pushedLetter(this)">😍</button>
+            <button class="emoji" onclick="pushedLetter(this)">😛</button>
+            <button class="emoji" onclick="pushedLetter(this)">😡</button>
+            <button id="backspace" onclick="pushedBack()">Back</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
